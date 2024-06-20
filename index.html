@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Meu Site Pessoal</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <img src="minha_foto.jpg" alt="Minha Foto">
+            <p>Olá! Eu sou Luis Fellipe de Moraes Rodrigues, um desenvolvedor web apaixonado por criar soluções inovadoras...</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfólio</h2>
+            <article>
+                <h3>Projeto 1</h3>
+                <img src="projeto1.jpg" alt="Imagem do Projeto 1">
+                <p>projeto em JavaScript</p>
+            </article>
+            <article>
+                <h3>Projeto 2</h3>
+                <img src="projeto2.jpg" alt="Imagem do Projeto 2">
+                <p>projeto em JavaScript</p>
+            </article>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form action="https://formspree.io/f/{sua-id}" method="POST">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Luis Fellipe de Moraes Rodrigues. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
